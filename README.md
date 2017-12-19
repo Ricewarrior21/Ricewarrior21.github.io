@@ -1,32 +1,32 @@
-#Exemplar
+Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/) 
+=========================
 
-This is my jekyll site template. Used for blog and project pages.
+Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
 
-#Getting Started
+## How to use
+ - Place a image in `/img/portfolio/`
+ - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
+ - Create posts to display your projects. Use the follow as an example:
+```txt
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: cabin.png
+alt: image-alt
+project-date: July 2014
+client: The Client
+category: Web Development
+description: The description of the project
 
-First, make sure you have the `jekyll` and `sass` gems installed. In your terminal run:
+---
+```
 
-    gem install jekyll
-    gem install sass
+## Demo
+View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
 
-You can optionally install the *bourbon* gem in order to update the Bourbon folder:
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
 
-    gem install bourbon
-    cd _sass
-    bourbon install
-
-Start running Jekyll (defaults to port 4000) and watching Sass:
-
-    rake // 'rake watch' also works
-
-Before deploying your site, stop `rake watch` and run `rake generate` to generate a production-ready site (no Scss comments).
-
-## Updating Bourbon
-
-In order to update the Bourbon folder:
-
-    cd _sass/
-    bourbon update
-    
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/tybenz/exemplar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+---------
+For more details, read the [documentation](http://jekyllrb.com/)
